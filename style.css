@@ -69,7 +69,17 @@ a:hover{
     cursor: default;
 }
 
+h2 {
+   color: pink;
+}
 
+h1{
+   color: yellow;
+}
+
+h3{
+   color: black;
+}
 
 /*Sections*/
 
