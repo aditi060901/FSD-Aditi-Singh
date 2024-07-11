@@ -44,7 +44,7 @@
 .nav-links{
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 a{
@@ -62,12 +62,14 @@ a:hover{
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 1.5vw;
 }
 
 .logo:hover{
     cursor: default;
 }
+
+
 
 /*Sections*/
 
