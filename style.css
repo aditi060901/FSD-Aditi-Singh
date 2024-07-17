@@ -1,5 +1,5 @@
 /* general styling */
- 
+
 * {
     margin:0;
     padding:0;
@@ -29,7 +29,7 @@
 
  /*desktop navigation*/
 
- nav, 
+ nav,
  .nav-links {
     display: flex;
  }
@@ -69,17 +69,28 @@ a:hover{
     cursor: default;
 }
 
-h2 {
-   color: pink;
-}
+/* h2 {color: pink;} */
 
-h1{
-   color: yellow;
-}
+/* h1{color: yellow;} */
 
-h3{
-   color: black;
-}
+/* h3{color: black;} */
 
 /*Sections*/
 
+section{
+   padding-top: 2vh;
+   height: 98vh;
+   margin: 0 10rem;
+   box-sizing: border-box;
+   min-height: fit-content;
+}
+
+.section-container{
+   display: flex;
+}
+
+#profile{
+   justify-content: center;
+   /* gap: 5rem; */
+   /* height: 80vh; */
+}
