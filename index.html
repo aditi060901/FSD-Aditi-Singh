@@ -10,7 +10,7 @@
     <!-- </style> -->
 </head>
 <body>
-    
+    <script src="script.js"></script>
     <nav id="desktop-nav">
         <div class="logo">Aditi Singh</div>
         <div>
@@ -22,6 +22,27 @@
             </ul>
         </div>
     </nav>
+
+
+    <nav id="hamburg">
+        <div class="logo">Aditi Singh</div>
+        <div class="hamburgm">
+            <div class="hamburgi" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+
     <section id="profile">
         <div class="section__pic-container">
             <img src="./assets/pf.jpg" alt="Aditi Singh profile picture" style="width:30%;">
@@ -30,9 +51,12 @@
             <p class="section__text__p1">Hello,I'm</p>
             <h1 class="title">Aditi Singh</h1>
             <p class="section__text__p2">a Computer Science Student</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2"></button>
-            </div>
+        <div class="btn">
+            <button class="btn1" onclick="location.href='./#contact'">Contact</button>
+        </div>
+        <div id="socials">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Account" class="icon" onclick="location.href='https://github.com/'">
+        </div>
         </div>
     </section>
     <!-- <h1 style:"green">aditi</h1> -->
